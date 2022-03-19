@@ -1,5 +1,6 @@
 /* Program money converter Robbins version o */ 
-#include<iostream> //Required for cin, cout, endl. #include<stdlib.h> //NEW calling on use of toupper() function 
+#include<iostream> //Required for cin, cout, endl. 
+#include<stdlib.h> //NEW calling on use of toupper() function 
 /* toupper() converts entered character to capital so switch *below will work whether you enter for example: an 'E' or 'e‘*/
  using namespace std;
 /* To get currency dollars to country letters are entered for currency name * 
@@ -21,9 +22,13 @@ switch (toupper(currencyCode))
 case 'E':
 cout << "Converting dollars to Italian Euros..\n"; //currencycode ?
 equivalentCurr = dollars * ECONVERSION; // break;
-case 'P': //currencycode ? cout << "Converting dollars to Mexican Pesos..\n"; equivalentCurr = dollars * PCONVERSION;
+case 'P': //currencycode ? 
+cout << "Converting dollars to Mexican Pesos..\n"; 
+equivalentCurr = dollars * PCONVERSION;
 break;
-case 'S': // cin Dollar cout << "Converting dollars to British pound sterlings..\n"; equivalentCurr = dollars * SCONVERSION;
+case 'S': // cin Dollar 
+cout << "Converting dollars to British pound sterlings..\n"; 
+equivalentCurr = dollars * SCONVERSION;
 break;
 default:
 cout << currencyCode << " not supported this week\n "; 
