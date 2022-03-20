@@ -109,6 +109,10 @@ new amount is 30.00 USD ,which is converted into indonesian Rupiah: 430270.50
 new amount is 20.00 USD ,which is converted into indonesian Rupiah: 286847.00
 new amount is 10.00 USD ,which is converted into indonesian Rupiah: 143423.50
 
+Hand calculation:
+E.g.for USD to indonesian Rupia,
+ converted currency (Rupia) = 14342.35 * 100(USD)= 1434235.00
+
 Welcome to currency conversion program. Please put the amount (USD) you want to convert
 260
 Please provide the first letter of intended currency
