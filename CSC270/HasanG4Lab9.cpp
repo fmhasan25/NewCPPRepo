@@ -29,15 +29,15 @@ cin>>_amountDollar;
 cout<<"Please provide the currency character."<<endl;
 cout<<"Please provide the first letter of intended currency"<<endl;//Indonesia, angola, Chile
 cin>>intended_currency;
-while(_amountDollar>0){
-    
-
 
 switch (toupper(intended_currency))
 {
+    {
     case 'I':
+    
     cout<<"Dollar converting into indonesian Rupiah"<<endl;
    converted_currency = I_multiflied_factor * _amountDollar;
+   _amountDollar=_amountDollar-10;
     break;
     case 'A':
     cout<<"Dollar converting into Angolan Kwanza"<<endl;
@@ -47,13 +47,34 @@ switch (toupper(intended_currency))
     cout<<"Dollar converting into Chilean Peso currency"<<endl;
     converted_currency = C_multiflid_factor * _amountDollar;
     break;
+while(_amountDollar>0){
+
+    _amountDollar=_amountDollar-10;
+    cout<<"new amount is "<<_amountDollar;
+}
 
 default:
 cout<<"The character is wrong"<<endl;
 converted_currency = _amountDollar;
     break;
+/*
+int main()
+{	
+	int number = 100;
+	
+	while(number > 0)
+	{
+		cout << number << " ";
+		number = number - 10;
+	}
+	
+ 	return 0;
+}
+*/
 
-}_amountDollar=_amountDollar-50.00;
+    }
+}
+
 }
 
 //COMPUTATION- BASIC FORMULAS SECTION
