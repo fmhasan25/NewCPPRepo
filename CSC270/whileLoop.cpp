@@ -75,20 +75,8 @@ cout<<"For,Chilean currency \t:C"<<endl;
   
          
     }//end of the main function
-   
-    
-    
-    
-  
 
-
-
-
-//COMPUTATION- BASIC FORMULAS SECTION
-//converted_currency = _amountDollar * _multiflied_factor; 
-//PRINTED OUTPUT
-    // cout<<"The converted amount is :"<<converted_currency<<endl;
-    return 0;
+  return 0;
 }
 /*
 Welcome to currency conversion program. Please put the amount (USD) you want to convert
