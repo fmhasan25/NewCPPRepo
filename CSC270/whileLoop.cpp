@@ -22,7 +22,7 @@ using namespace std; //Required for library filenames
 
 int main(){
 //DECLARATION AND INTIALIZATION SECTION
-double converted_currency,_amountDollar,I_multiflied_factor(14342.35),A_multiflied_factor(455.99), C_multiflid_factor(803.51);
+double converted_currency,_amountDollar,I_multiflied_factor(14342.35),A_multiflied_factor(455.99), C_multiflied_factor(803.51);
 char intended_currency;
 
 //OUTPUT MODIFIER
@@ -53,7 +53,7 @@ cout<<"For,Chilean currency \t:C"<<endl;
     case 'A':
     cout<<"new amount is "<<_amountDollar<<" USD";
     // computation and basic formula section 
-    converted_currency = I_multiflied_factor * _amountDollar;
+    converted_currency = A_multiflied_factor * _amountDollar;
     cout<<" ,which is converted into angolan kwanza: "<<converted_currency<<endl;
      _amountDollar=_amountDollar-20;//decrement rate is set 10.
      break;
@@ -61,7 +61,7 @@ cout<<"For,Chilean currency \t:C"<<endl;
      case 'C':
     cout<<"new amount is "<<_amountDollar<<" USD";
     // computation and basic formula section 
-    converted_currency = I_multiflied_factor * _amountDollar;
+    converted_currency = C_multiflied_factor * _amountDollar;
     //Printed output
     cout<<" ,which is converted into chilean peso: "<<converted_currency<<endl;
     _amountDollar=_amountDollar-30;//decrement rate is set 10.
@@ -95,7 +95,7 @@ new amount is 50.00 USD ,which is converted into indonesian Rupiah: 717117.50
 new amount is 40.00 USD ,which is converted into indonesian Rupiah: 573694.00
 new amount is 30.00 USD ,which is converted into indonesian Rupiah: 430270.50
 new amount is 20.00 USD ,which is converted into indonesian Rupiah: 286847.00
-new amount is 10.00 USD ,which is converted into indonesian Rupiah: 143423.50
+new amount is 10.00 USD ,which is converted into indonesian Rupiah: 14342s3.50
 
 Hand calculation:
 E.g.for USD to indonesian Rupia,
@@ -108,37 +108,36 @@ For,Indonesian currency :I
 For,Angolan currency    :A
 For,Chilean currency    :C
 a
-new amount is 260.00 USD ,which is converted into angolan kwanza: 3729011.00
-new amount is 240.00 USD ,which is converted into angolan kwanza: 3442164.00
-new amount is 220.00 USD ,which is converted into angolan kwanza: 3155317.00
-new amount is 200.00 USD ,which is converted into angolan kwanza: 2868470.00
-new amount is 180.00 USD ,which is converted into angolan kwanza: 2581623.00
-new amount is 160.00 USD ,which is converted into angolan kwanza: 2294776.00
-new amount is 140.00 USD ,which is converted into angolan kwanza: 2007929.00
-new amount is 120.00 USD ,which is converted into angolan kwanza: 1721082.00
-new amount is 100.00 USD ,which is converted into angolan kwanza: 1434235.00
-new amount is 80.00 USD ,which is converted into angolan kwanza: 1147388.00
-new amount is 60.00 USD ,which is converted into angolan kwanza: 860541.00
-new amount is 40.00 USD ,which is converted into angolan kwanza: 573694.00
-new amount is 20.00 USD ,which is converted into angolan kwanza: 286847.00
+new amount is 260.00 USD ,which is converted into angolan kwanza: 118557.40
+new amount is 240.00 USD ,which is converted into angolan kwanza: 109437.60
+new amount is 220.00 USD ,which is converted into angolan kwanza: 100317.80
+new amount is 200.00 USD ,which is converted into angolan kwanza: 91198.00
+new amount is 180.00 USD ,which is converted into angolan kwanza: 82078.20
+new amount is 160.00 USD ,which is converted into angolan kwanza: 72958.40
+new amount is 140.00 USD ,which is converted into angolan kwanza: 63838.60
+new amount is 120.00 USD ,which is converted into angolan kwanza: 54718.80
+new amount is 100.00 USD ,which is converted into angolan kwanza: 45599.00
+new amount is 80.00 USD ,which is converted into angolan kwanza: 36479.20
+new amount is 60.00 USD ,which is converted into angolan kwanza: 27359.40
+new amount is 40.00 USD ,which is converted into angolan kwanza: 18239.60
+new amount is 20.00 USD ,which is converted into angolan kwanza: 9119.80
 
 Welcome to currency conversion program. Please put the amount (USD) you want to convert
-350
+330
 Please provide the first letter of intended currency
 For,Indonesian currency :I
 For,Angolan currency    :A
 For,Chilean currency    :C
 c
-new amount is 350.00 USD ,which is converted into chilean peso: 5019822.50
-new amount is 320.00 USD ,which is converted into chilean peso: 4589552.00
-new amount is 290.00 USD ,which is converted into chilean peso: 4159281.50
-new amount is 260.00 USD ,which is converted into chilean peso: 3729011.00
-new amount is 230.00 USD ,which is converted into chilean peso: 3298740.50
-new amount is 200.00 USD ,which is converted into chilean peso: 2868470.00
-new amount is 170.00 USD ,which is converted into chilean peso: 2438199.50
-new amount is 140.00 USD ,which is converted into chilean peso: 2007929.00
-new amount is 110.00 USD ,which is converted into chilean peso: 1577658.50
-new amount is 80.00 USD ,which is converted into chilean peso: 1147388.00
-new amount is 50.00 USD ,which is converted into chilean peso: 717117.50
-new amount is 20.00 USD ,which is converted into chilean peso: 286847.00
+new amount is 330.00 USD ,which is converted into chilean peso: 265158.30
+new amount is 300.00 USD ,which is converted into chilean peso: 241053.00
+new amount is 270.00 USD ,which is converted into chilean peso: 216947.70
+new amount is 240.00 USD ,which is converted into chilean peso: 192842.40
+new amount is 210.00 USD ,which is converted into chilean peso: 168737.10
+new amount is 180.00 USD ,which is converted into chilean peso: 144631.80
+new amount is 150.00 USD ,which is converted into chilean peso: 120526.50
+new amount is 120.00 USD ,which is converted into chilean peso: 96421.20
+new amount is 90.00 USD ,which is converted into chilean peso: 72315.90
+new amount is 60.00 USD ,which is converted into chilean peso: 48210.60
+new amount is 30.00 USD ,which is converted into chilean peso: 24105.30
 */
