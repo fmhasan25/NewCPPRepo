@@ -5,7 +5,7 @@ LAB#9 GROUP#4 03/19/2022 MAHAMUD HASAN
 ABSTRACT: The program will convert USD(user input) into indonesian, angolan and chilean currency. The program will
 also continue to convert currency until input USD amount goes zero. 
 
-EQUATOIN USED IN THE PROGRAM:
+EQUATION USED IN THE PROGRAM:
 converted_currency = I_multiflied_factor * _amountDollar
 
 E.g.for USD to indonesian Rupia,
