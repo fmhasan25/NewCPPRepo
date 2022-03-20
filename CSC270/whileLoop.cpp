@@ -74,10 +74,10 @@ cout<<"For, Chilean currency  \t:C"<<endl;
   }//end of switch block
   
          
-    }//end of the main function
+    }//end of the while function
 
   return 0;
-}
+}//end of main
 /*
 Welcome to currency conversion program. Please put the amount (USD) you want to convert
 100
