@@ -95,7 +95,7 @@ new amount is 50.00 USD ,which is converted into indonesian Rupiah: 717117.50
 new amount is 40.00 USD ,which is converted into indonesian Rupiah: 573694.00
 new amount is 30.00 USD ,which is converted into indonesian Rupiah: 430270.50
 new amount is 20.00 USD ,which is converted into indonesian Rupiah: 286847.00
-new amount is 10.00 USD ,which is converted into indonesian Rupiah: 14342s3.50
+new amount is 10.00 USD ,which is converted into indonesian Rupiah: 143423.50
 
 Hand calculation:
 E.g.for USD to indonesian Rupia,
