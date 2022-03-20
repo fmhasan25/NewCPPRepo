@@ -55,7 +55,7 @@ cout<<"For,Chilean currency \t:C"<<endl;
     // computation and basic formula section 
     converted_currency = A_multiflied_factor * _amountDollar;
     cout<<" ,which is converted into angolan kwanza: "<<converted_currency<<endl;
-     _amountDollar=_amountDollar-20;//decrement rate is set 10.
+     _amountDollar=_amountDollar-20;//decrement rate is set 20.
      break;
 
      case 'C':
@@ -64,7 +64,7 @@ cout<<"For,Chilean currency \t:C"<<endl;
     converted_currency = C_multiflied_factor * _amountDollar;
     //Printed output
     cout<<" ,which is converted into chilean peso: "<<converted_currency<<endl;
-    _amountDollar=_amountDollar-30;//decrement rate is set 10.
+    _amountDollar=_amountDollar-30;//decrement rate is set 30.
     break;
 
     default:
