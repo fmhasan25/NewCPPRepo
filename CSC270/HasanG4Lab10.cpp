@@ -27,7 +27,7 @@ int main()
     //DECLARATION AND INTIALIZATION SECTION
     double initialRadius_r, newRadius_r_t, volume_V, surfaceArea_S, time_t;
     string unit_radius("meter"), unit_time("second"), unit_volume("meter^3"), unit_area("meter^2");
-    int sl;
+    int count;
 
     //USER INPUT SECTION
     cout << "The program will calculate the volume and surface area of a cone for given radius." << endl;
@@ -36,30 +36,30 @@ int main()
     //OUTPUT MODIFIER
     cout << fixed << setw(5) << setprecision(5);
     time_t = 0; //time starts from 0
-    sl=0;//required for the serial number in the loop
+    count=0;//required for the serial number in the loop
     cout << "As time changes the radius also increases, hence the area and volume of also increases" << endl;
     cout << "The resultant radius, area and volume are given below in the table - \n"
          << endl;
-    cout << "Sl\tt[s]\t\tr(t)[m]\t\tS(r,t)[m^2]\tV(r,t)[m^3]" << endl;
+    cout << "count\tt[s]\t\tr(t)[m]\t\tS(r,t)[m^2]\tV(r,t)[m^3]" << endl;
 
     while (time_t < 5.41)
     {
         newRadius_r_t = mFactor_k * initialRadius_r * time_t;
         surfaceArea_S = PI * newRadius_r_t * sqrt(pow(newRadius_r_t, 2) + pow(height_h, 2));
         volume_V = 0.333 * PI * pow(newRadius_r_t, 2) * height_h;
-        sl=sl+1;
+        count=count+1;
 
-        cout <<sl<<"\t"<<time_t << "\t\t" << newRadius_r_t << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
+        cout <<count<<"\t"<<time_t << "\t\t" << newRadius_r_t << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
         time_t = time_t + 0.15;
       
-    }
+    }//end of while loop
 
     //COMPUTATION AND BASIC FORMULA SECTION
 
     //PRINTED OUTPUT
 
     return 0;
-}
+}//end of main function
 
 /*
 
@@ -73,7 +73,7 @@ Please provide the radius
 As time changes the radius also increases, hence the area and volume of also increases
 The resultant radius, area and volume are given below in the table - 
 
-Sl      t[s]            r(t)[m]         S(r,t)[m^2]     V(r,t)[m^3]
+count   t[s]            r(t)[m]         S(r,t)[m^2]     V(r,t)[m^3]
 1       0.00000         0.00000         0.00000         0.00000
 2       0.15000         0.00780         0.03430         0.00009
 3       0.30000         0.01560         0.06861         0.00036
