@@ -4,8 +4,8 @@ ABSTRACT: This is a currency conversion program which will convert the amount se
 the intended currency as an output unit. The program will provide the outputs for a given set of decrement and will
 continue until the condition meets. 
 
-Equatoin used in the program:
-converted amount = input amount(USD) * conversion multiplying factor
+Equation used in the program:
+converted amount = input amount (USD) * conversion multiplying factor
 
 Hand calculation:
 E.g., For USD to Indonesian Rupia,
