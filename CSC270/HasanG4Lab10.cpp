@@ -66,11 +66,6 @@ int main()
 Hand calculation: 
 when t=0.15, radius = 0.15*0.13*0.4=0.0078, surface area = (3.1416 *0.0078)((0.0078)^2+(1.4)^2)^1/4 = 0.034307
 volume= (0.333)*3.1416*(0.0078^2)*1.4=0.000089=0.00009(app.)
-when t=
-Please provide the radius
-0.13
-The resultant radius, area and volume are given below in the table - 
-
 
 The program will calculate the volume and surface area of a cone for given radius.
 Please provide the radius
