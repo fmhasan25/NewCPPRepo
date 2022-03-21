@@ -33,10 +33,11 @@ int main()
     cout << "The program will calculate the volume and surface area of a cone for given radius." << endl;
     cout << "Please provide the radius" << endl;
     cin >> initialRadius_r;
+
     //OUTPUT MODIFIER
     cout << fixed << setw(5) << setprecision(5);
     time_t = 0; //time starts from 0
-    count=0;//required for the serial number in the loop
+    count = 0;  //required for the serial number in the loop
     cout << "As time changes the radius also increases, hence the area and volume of also increases" << endl;
     cout << "The resultant radius, area and volume are given below in the table - \n"
          << endl;
@@ -44,22 +45,21 @@ int main()
 
     while (time_t < 5.41)
     {
+        //COMPUTATION AND BASIC FORMULA SECTION
         newRadius_r_t = mFactor_k * initialRadius_r * time_t;
         surfaceArea_S = PI * newRadius_r_t * sqrt(pow(newRadius_r_t, 2) + pow(height_h, 2));
         volume_V = 0.333 * PI * pow(newRadius_r_t, 2) * height_h;
-        count=count+1;
 
-        cout <<count<<"\t"<<time_t << "\t\t" << newRadius_r_t << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
-        time_t = time_t + 0.15;
-      
-    }//end of while loop
+        count = count + 1;
+        //PRINTED OUTPUT
+        cout << count << "\t" << time_t << "\t\t" << newRadius_r_t << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
+        
+        time_t = time_t + 0.15; //increment rate
 
-    //COMPUTATION AND BASIC FORMULA SECTION
-
-    //PRINTED OUTPUT
+    } //end of while loop
 
     return 0;
-}//end of main function
+} //end of main function
 
 /*
 
