@@ -12,7 +12,8 @@ ABSTRACT: T
 #include <iomanip>  //Required for setw(), setprecesion()
 
 using namespace std; //Required for library filenames
-const double height_h(1.4), mFactor_k(0.4);
+
+const double height_h(1.4), mFactor_k(0.4), PI(3.14116);
 
 int main()
 {
@@ -25,13 +26,25 @@ int main()
     cout << "Please provide the radius" << endl;
     cin >> initialRadius_r;
     time_t = 0;
-    cout<<"At t=0, the radius of the cone is "<<initialRadius_r<<". Therefore the volume of the cone is "<<<<endl;
-    while (time <= 5.4)
+    cout << "Time(sec)\tRadius(meter)\tSurface Area(meter^2)\tVolume(meter^3)"<< endl;
+    while (time_t <= 5.4)
     {
-        newRadius_r_t=mFactor_k * initialRadius_r* time_t;
+        if(time_t==0)
+        {
+        volume_V = 0.333 * PI * pow(initialRadius_r, 2) * height_h;
+        surfaceArea_S= PI * initialRadius_r * sqrt(pow(initialRadius_r, 2) + pow(height_h, 2));
+        cout <<time_t<<"\t\t\t"<<initialRadius_r << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
+        time_t = time_t + 0.15;
+        }
+        else
+        {
+        newRadius_r_t = mFactor_k * initialRadius_r * time_t;
+        surfaceArea_S = PI * newRadius_r_t * sqrt(pow(newRadius_r_t, 2) + pow(height_h, 2));
+        volume_V = 0.333 * PI * pow(newRadius_r_t, 2) * height_h;
 
-
-        cout<<"The new radius of the cone is "<<newRadius_r_t<<endl;
+        cout <<time_t<<"\t\t\t"<<newRadius_r_t << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
+        time_t = time_t + 0.15;
+        }
     }
 
     //OUTPUT MODIFIER
