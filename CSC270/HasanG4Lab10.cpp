@@ -25,15 +25,18 @@ int main()
     cout << "The program will calculate the volume and surface area of a cone for given radius." << endl;
     cout << "Please provide the radius" << endl;
     cin >> initialRadius_r;
-    time_t = 0;
+    time_t =0;
     cout << "Time(sec)\tRadius(meter)\tSurface Area(meter^2)\tVolume(meter^3)"<< endl;
-    while (time_t <= 5.4)
+
+    //OUTPUT MODIFIER
+cout<<fixed<<setw(5)<<setprecision(3);
+    while (time_t < 5.41)
     {
         if(time_t==0)
         {
         volume_V = 0.333 * PI * pow(initialRadius_r, 2) * height_h;
         surfaceArea_S= PI * initialRadius_r * sqrt(pow(initialRadius_r, 2) + pow(height_h, 2));
-        cout <<time_t<<"\t\t\t"<<initialRadius_r << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
+        cout<<time_t<<"\t\t\t"<<initialRadius_r << "\t\t" << surfaceArea_S << "\t\t" << volume_V << endl;
         time_t = time_t + 0.15;
         }
         else
@@ -46,9 +49,10 @@ int main()
         time_t = time_t + 0.15;
         }
     }
+    time_t=5.14;
+    
 
-    //OUTPUT MODIFIER
-    cout << fixed << setw(10) << setprecision(2);
+   
     //COMPUTATION AND BASIC FORMULA SECTION
 
     //PRINTED OUTPUT
