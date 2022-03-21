@@ -21,7 +21,11 @@ using namespace std;
 /* To get currency dollars to country letters are entered for currency name * 
 E => Euros of Italy 
 P => Pesos OF Mexicao 
-S => British pound */
+S => British pound 
+I => Indonesian rupiah
+A => Angolan kwanza
+C => Chilean peso
+*/
 int main()
 {
 
@@ -177,4 +181,5 @@ Converting 40.00 USD into Chilean peso,and converted amount is :32140.40 peso
 Converting 30.00 USD into Chilean peso,and converted amount is :24105.30 peso
 Converting 20.00 USD into Chilean peso,and converted amount is :16070.20 peso
 Converting 10.00 USD into Chilean peso,and converted amount is :8035.10 peso
+
 */
