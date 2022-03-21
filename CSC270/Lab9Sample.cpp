@@ -8,7 +8,7 @@ Equatoin used in the program:
 converted amount = input amount(USD) * conversion multiplying factor
 
 Hand calculation:
-E.g.For USD to Indonesian Rupia,
+E.g., For USD to Indonesian Rupia,
  converted currency (Rupia) = 14342.35 * 100(USD)= 1434235.00
 */
 
@@ -77,7 +77,7 @@ int main()
       break;
 
     case 'I': // cin Dollar
-      cout << "Converting " << dollars << " USD  into Indonesian rupiah,";
+      cout << "Converting " << dollars << " USD into Indonesian rupiah, ";
       //Computation and basic formula section
       equivalentCurr = dollars * ICONVERSION;
       //Printed output
@@ -86,7 +86,7 @@ int main()
       break;
 
     case 'A': // cin Dollar
-      cout << "Converting " << dollars << " USD into Angloan kwanza,";
+      cout << "Converting " << dollars << " USD into Angolan kwanza, ";
       //Computation and basic formula section
       equivalentCurr = dollars * ACONVERSION;
       //Printed output
@@ -95,11 +95,11 @@ int main()
       break;
 
     case 'C': // cin Dollar
-      cout << "Converting " << dollars << " USD into Chilean peso,";
+      cout << "Converting " << dollars << " USD into Chilean peso, ";
       //Computation and basic formula section
       equivalentCurr = dollars * CCONVERSION;
       //Printed output
-      cout << "and converted amount is :" << equivalentCurr << " peso" << endl;
+      cout << "and converted amount is :" << equivalentCurr << " peso." << endl;
       dollars = dollars - 10; //Decrement rate for each loop
       break;
 
@@ -125,19 +125,19 @@ I =>    Indonesian rupiah
 A =>    Angolan kwanza
 C =>    Chilean peso
 i
-Converting 100.00 USD  into Indonesian rupiah,and converted amount is :1434235.00 rupiah.
-Converting 90.00 USD  into Indonesian rupiah,and converted amount is :1290811.50 rupiah.
-Converting 80.00 USD  into Indonesian rupiah,and converted amount is :1147388.00 rupiah.
-Converting 70.00 USD  into Indonesian rupiah,and converted amount is :1003964.50 rupiah.
-Converting 60.00 USD  into Indonesian rupiah,and converted amount is :860541.00 rupiah.
-Converting 50.00 USD  into Indonesian rupiah,and converted amount is :717117.50 rupiah.
-Converting 40.00 USD  into Indonesian rupiah,and converted amount is :573694.00 rupiah.
-Converting 30.00 USD  into Indonesian rupiah,and converted amount is :430270.50 rupiah.
-Converting 20.00 USD  into Indonesian rupiah,and converted amount is :286847.00 rupiah.
-Converting 10.00 USD  into Indonesian rupiah,and converted amount is :143423.50 rupiah.
+Converting 100.00 USD into Indonesian rupiah, and converted amount is :1434235.00 rupiah.
+Converting 90.00 USD into Indonesian rupiah, and converted amount is :1290811.50 rupiah.
+Converting 80.00 USD into Indonesian rupiah, and converted amount is :1147388.00 rupiah.
+Converting 70.00 USD into Indonesian rupiah, and converted amount is :1003964.50 rupiah.
+Converting 60.00 USD into Indonesian rupiah, and converted amount is :860541.00 rupiah.
+Converting 50.00 USD into Indonesian rupiah, and converted amount is :717117.50 rupiah.
+Converting 40.00 USD into Indonesian rupiah, and converted amount is :573694.00 rupiah.
+Converting 30.00 USD into Indonesian rupiah, and converted amount is :430270.50 rupiah.
+Converting 20.00 USD into Indonesian rupiah, and converted amount is :286847.00 rupiah.
+Converting 10.00 USD into Indonesian rupiah, and converted amount is :143423.50 rupiah.
 
 Hand calculation:
-E.g.For USD to Indonesian Rupia,
+E.g., For USD to Indonesian Rupia,
  converted currency (Rupia) = 14342.35 * 100(USD)= 1434235.00
 
  Enter dollar amount to be converted
@@ -150,16 +150,16 @@ I =>    Indonesian rupiah
 A =>    Angolan kwanza
 C =>    Chilean peso
 a
-Converting 100.00 USD into Angloan kwanza,and converted amount is :45599.00 kwanza.
-Converting 90.00 USD into Angloan kwanza,and converted amount is :41039.10 kwanza.
-Converting 80.00 USD into Angloan kwanza,and converted amount is :36479.20 kwanza.
-Converting 70.00 USD into Angloan kwanza,and converted amount is :31919.30 kwanza.
-Converting 60.00 USD into Angloan kwanza,and converted amount is :27359.40 kwanza.
-Converting 50.00 USD into Angloan kwanza,and converted amount is :22799.50 kwanza.
-Converting 40.00 USD into Angloan kwanza,and converted amount is :18239.60 kwanza.
-Converting 30.00 USD into Angloan kwanza,and converted amount is :13679.70 kwanza.
-Converting 20.00 USD into Angloan kwanza,and converted amount is :9119.80 kwanza.
-Converting 10.00 USD into Angloan kwanza,and converted amount is :4559.90 kwanza.
+Converting 100.00 USD into Angolan kwanza, and converted amount is :45599.00 kwanza.
+Converting 90.00 USD into Angolan kwanza, and converted amount is :41039.10 kwanza.
+Converting 80.00 USD into Angolan kwanza, and converted amount is :36479.20 kwanza.
+Converting 70.00 USD into Angolan kwanza, and converted amount is :31919.30 kwanza.
+Converting 60.00 USD into Angolan kwanza, and converted amount is :27359.40 kwanza.
+Converting 50.00 USD into Angolan kwanza, and converted amount is :22799.50 kwanza.
+Converting 40.00 USD into Angolan kwanza, and converted amount is :18239.60 kwanza.
+Converting 30.00 USD into Angolan kwanza, and converted amount is :13679.70 kwanza.
+Converting 20.00 USD into Angolan kwanza, and converted amount is :9119.80 kwanza.
+Converting 10.00 USD into Angolan kwanza, and converted amount is :4559.90 kwanza.
 
 Enter dollar amount to be converted
 100
@@ -171,15 +171,15 @@ I =>    Indonesian rupiah
 A =>    Angolan kwanza
 C =>    Chilean peso
 c
-Converting 100.00 USD into Chilean peso,and converted amount is :80351.00 peso
-Converting 90.00 USD into Chilean peso,and converted amount is :72315.90 peso
-Converting 80.00 USD into Chilean peso,and converted amount is :64280.80 peso
-Converting 70.00 USD into Chilean peso,and converted amount is :56245.70 peso
-Converting 60.00 USD into Chilean peso,and converted amount is :48210.60 peso
-Converting 50.00 USD into Chilean peso,and converted amount is :40175.50 peso
-Converting 40.00 USD into Chilean peso,and converted amount is :32140.40 peso
-Converting 30.00 USD into Chilean peso,and converted amount is :24105.30 peso
-Converting 20.00 USD into Chilean peso,and converted amount is :16070.20 peso
-Converting 10.00 USD into Chilean peso,and converted amount is :8035.10 peso
+Converting 100.00 USD into Chilean peso, and converted amount is :80351.00 peso.
+Converting 90.00 USD into Chilean peso, and converted amount is :72315.90 peso.
+Converting 80.00 USD into Chilean peso, and converted amount is :64280.80 peso.
+Converting 70.00 USD into Chilean peso, and converted amount is :56245.70 peso.
+Converting 60.00 USD into Chilean peso, and converted amount is :48210.60 peso.
+Converting 50.00 USD into Chilean peso, and converted amount is :40175.50 peso.
+Converting 40.00 USD into Chilean peso, and converted amount is :32140.40 peso.
+Converting 30.00 USD into Chilean peso, and converted amount is :24105.30 peso.
+Converting 20.00 USD into Chilean peso, and converted amount is :16070.20 peso.
+Converting 10.00 USD into Chilean peso, and converted amount is :8035.10 peso.
 
 */
