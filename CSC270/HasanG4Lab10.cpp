@@ -38,6 +38,7 @@ int main()
     cout << fixed << setw(5) << setprecision(5);
     time_t = 0; //time starts from 0
     count = 0;  //required for the serial number in the loop
+    cout<<"The initial radius is "<<initialRadius_r<<"."<<endl;
     cout << "As time changes the radius also increases, hence the area and volume of also increases" << endl;
     cout << "The resultant radius, area and volume are given below in the table - \n"
          << endl;
@@ -70,6 +71,7 @@ volume= (0.333)*3.1416*(0.0078^2)*1.4=0.000089=0.00009(app.)
 The program will calculate the volume and surface area of a cone for given radius.
 Please provide the radius
 0.13
+The initial radius is 0.13000.
 As time changes the radius also increases, hence the area and volume of also increases
 The resultant radius, area and volume are given below in the table - 
 
