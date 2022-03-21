@@ -1,2 +1,0 @@
-
-dollars=dollars-10;
