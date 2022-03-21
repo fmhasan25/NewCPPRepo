@@ -35,8 +35,8 @@ int main()
     cin >> initialRadius_r;
     //OUTPUT MODIFIER
     cout << fixed << setw(5) << setprecision(5);
-    time_t = 0;
-    sl=0;
+    time_t = 0; //time starts from 0
+    sl=0;//required for the serial number in the loop
     cout << "As time changes the radius also increases, hence the area and volume of also increases" << endl;
     cout << "The resultant radius, area and volume are given below in the table - \n"
          << endl;
