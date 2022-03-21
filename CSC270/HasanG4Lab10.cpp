@@ -3,8 +3,8 @@
 LAB#10 GROUP#4 03/19/2022 MAHAMUD HASAN
 
 ABSTRACT: The program is designed to calcualte the surface area and volume of a cone for the radius set by the user.
-As time changes the program will provide the corresponding values. While loop has been used for time increment and 
-the limit.
+As time changes the radius changes,the program will provide the corresponding area and volume of the cone. While loop 
+has been used for time increment and the limit.
 
 Equation used in the program:
 1. New radius(r) = multiplying factor(k)*initial radius(r_0)* time(t)
